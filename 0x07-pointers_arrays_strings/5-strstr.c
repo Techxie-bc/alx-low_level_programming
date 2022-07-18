@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
 * _strstr - Locates a substring
 * @haystack: string to be searched.
