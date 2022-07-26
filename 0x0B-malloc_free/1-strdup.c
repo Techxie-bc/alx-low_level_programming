@@ -20,5 +20,5 @@ return (NULL);
 for (index = 0; str[index]; index++)
 copy[index] = str[index];
 copy[len] = '\0';
-return (duplicate);
+return (copy);
 }
