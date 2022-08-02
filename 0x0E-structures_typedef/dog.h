@@ -1,5 +1,5 @@
-#ifndef STRUCTS
-#define STRUCTS
+#ifndef DOG_H
+#define DOG_H
 
 /**
 * struct dog - description of
@@ -16,10 +16,7 @@ char *name;
 float age;
 char *owner;
 } my_dog;
-#endif
 
-#ifndef _FUNCTIONS_H
-#define _FUNCTIONS_H
 int _putchar(char c);
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
