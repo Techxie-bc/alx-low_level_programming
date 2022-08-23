@@ -90,7 +90,7 @@ free(buffer);
 exit(99);
 }
 r = read(from, buffer, 1024);
-to = open(argv[2], O_WRONLY | O_APPEND)
+to = open(argv[2], O_WRONLY | O_APPEND);
 } while (r > 0);
 free(buffer);
 close_file(from);
